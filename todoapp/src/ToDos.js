@@ -20,8 +20,10 @@ const Todos = ({todos}) => {
 
     return (
         <div className="todos collection">
-
+        {todoList}
         </div>
 
     )
 }
+
+export default Todos
