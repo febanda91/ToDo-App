@@ -47,40 +47,40 @@ export default App;
 
 
 
+// import React, { Component } from 'react';
+
 // class App extends Component {
+
 //   state = {
 //     todos: [
-//       {id: 1, content: 'buy some milk'},
-//       {id: 2, content: 'play mario kart'}
+//       {id: 1, content: 'Need to mow the lawn'},
+//       {id: 2, content: 'Watch the NBA finals'}
 //     ]
+
 //   }
 
 
 //   deleteToDo = (id) => {
 //     const todos = this.state.todos.filter(todo => {
-//      return todo.id !== id 
+//       return todo.id !== id 
 //     })
 //     this.setState({
 //       todos: todos 
 //     })
 //   }
 
+
 //   addToDo = (todo) => {
-//     todo.id = Math.random()
-//     let todos = [...this.state.todos, todo]
-//     this.setState({
-//       todos: todos 
-//     })
+
 //   }
 
 
 
 //   render() {
 //     return (
-//       <div className="App">
-//         <h1 className="center-blue-text">Todo's</h1>
+//       <div>
+//         <h1 className="center blue-text">ToDoList</h1>
 //         <ToDos todos={this.state.todos} deleteToDo={this.deleteToDo}/>
-//         <AddToDo addToDo={this.addToDo}/>
 //       </div>
 //     );
 //   }
