@@ -30,10 +30,3 @@ export default Todos
 
 
 
-// import React, { Component } from 'react';
-
-// const ToDos = ({todos}) => {
-//     const toDoList = todos.length ? () : ()
-// }
-
-// export default ToDos;
